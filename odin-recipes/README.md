@@ -1,0 +1,1 @@
+Creating a basic website in html providing different cooking recipes as a way to validate html and git skills.
