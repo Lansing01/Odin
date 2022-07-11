@@ -7,11 +7,15 @@
 
     <body>
         <h1>Gâteau au chocolat<h1>
-        <img src="../images/chocolate-cake.jpg" alt="Un délicieux gâteau au chocolat">
+        
+            <img src="../images/chocolate-cake.jpg" alt="Un délicieux gâteau au chocolat">
 
-        <h3>Description</h3>
+        
+            <h3>Description</h3>
+        
         <p>Un gâteau au chocolat moelleux et fondant, recette simple et rapide pour un gâteau ravissant petits et grands. Idéal à réaliser en famille.</p>
 
+        
         <h3>Ingrédients</h3>
         <ul>
             <li>5 œufs</li>
@@ -21,6 +25,7 @@
             <li>3 cuillères à soupe de farine</li>
         </ul>
 
+        
         <h3>Étapes</h3>
         <ol>
             <li>Préchauffer le four à 180°C en chaleur tournante</li>

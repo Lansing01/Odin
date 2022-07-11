@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Gâteau au chocolat</title>
+        <title>Lasagnes</title>
     </head>
 
     <body>
@@ -10,10 +10,12 @@
         
         <img src="../images/lasagna.jpeg" alt="De délicieuses lasagnes bolognaise et béchamel">
 
+        
         <h3>Description</h3>
         
         <p>Recette de lasagnes bolognaise et béchamel</p>
 
+        
         <h3>Ingrédients</h3>
         
         <h5>Lasagnes bolognaise</h5>
@@ -40,6 +42,7 @@
             <li>Sel et poivre</li>
         </ul>
 
+        
         <h3>Étapes</h3>
         
         <h5>Bolognaise</h5>
