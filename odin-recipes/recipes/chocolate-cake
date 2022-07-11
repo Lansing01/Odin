@@ -13,5 +13,21 @@
         <p>Un gâteau au chocolat moelleux et fondant, recette simple et rapide pour un gâteau ravissant petits et grands. Idéal à réaliser en famille.</p>
 
         <h3>Ingrédients</h3>
+        <ul>
+            <li>5 œufs</li>
+            <li>200g chocolat pâtissier</li>
+            <li>200g beurre salé</li>
+            <li>120g sucre</li>
+            <li>3 cuillères à soupe de farine</li>
+        </ul>
+
+        <h3>Étapes</h3>
+        <ol>
+            <li>Préchauffer le four à 180°C en chaleur tournante</li>
+            <li>Faire fondre le chocolat ainsi que le beurre salé au micro-ondes ou à la casserole</li>
+            <li>Mélanger le sucre et les œufs complets dans un saladier</li>
+            <li>Mélanger le tout dans le même saladier et y ajouter la farine petit à petit</li>
+            <li>Mettre dans un moule beurré ou fariné et mettre au four pendant 20-25min</li>
+        </ol>
     </body>
 </html>
