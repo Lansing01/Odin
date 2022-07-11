@@ -1,1 +1,71 @@
-<h1>Lasagnes</h1>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Gâteau au chocolat</title>
+    </head>
+
+    <body>
+        <h1>Lasagnes</h1>
+        
+        <img src="../images/lasagna.jpeg" alt="De délicieuses lasagnes bolognaise et béchamel">
+
+        <h3>Description</h3>
+        
+        <p>Recette de lasagnes bolognaise et béchamel</p>
+
+        <h3>Ingrédients</h3>
+        
+        <h5>Lasagnes bolognaise</h5>
+        <ul>
+            <li>1 paquet de pâtes à lasagnes</li>
+            <li>400g viande hachée</li>
+            <li>800g pulpe de tomates</li>
+            <li>1 gousse d'ail</li>
+            <li>1 oignon</li>
+            <li>2 cuillères à soupe de concentré de tomates</li>
+            <li>Parmesan râpé</li>
+            <li>1 cube bouillon de boeuf</li>
+            <li>Huile d'olive</li>
+            <li>Herbes de provence</li>
+            <li>Sel et poivre</li>
+        </ul>
+        
+        <h5>Béchamel</h5>
+        <ul>
+            <li>500mL lait</li>
+            <li>70g farine</li>
+            <li>70g beurre</li>
+            <li>Noix de muscade</li>
+            <li>Sel et poivre</li>
+        </ul>
+
+        <h3>Étapes</h3>
+        
+        <h5>Bolognaise</h5>
+        <ol>
+            <li>Peler et émincer l’oignon, le faire revenir dans une sauteuse avec un filet d’huile.</li>
+            <li>Laisser dorer, puis ajouter l’ail haché et la viande.</li>
+            <li>Après quelques minutes, ajouter la pulpe et le concentré de tomates, le cube de bouillon émietté, les herbes, du sel et du poivre.</li>
+            <li>Remuer et cuire doucement à couvert durant un quart d’heure, en ajoutant un peu d’eau si la sauce s’assèche.</li>
+        </ol>
+        
+        <h5>Béchamel</h5>
+        <ol>
+            <li>Mettre le beurre dans une casserole et le laisser fondre.</li>
+            <li>Éteindre le feu et verser la farine.</li>
+            <li>Remuer, puis verser le lait petit à petit, toujours en remuant.</li>
+            <li>Assaisonner à votre convenance en noix de muscade, sel et poivre.</li>
+            <li>Rallumer le feu à doux et poursuivre la cuisson jusqu’à ce que la sauce épaississe.</li>
+        </ol>
+        
+        <h5>Assemblage</h5>
+        <ol>
+            <li>Préchauffer le four à 200°C chaleur tournante.</li>
+            <li>Verser un peu de béchamel dans le fond d'un plat pouvant aller au four.</li>
+            <li>Déposer une couche de lasagnes, puis de bolognaise, de nouveau des lasagnes puis de la béchamel.</li>
+            <li>Remplir le plat en terminant par une couche de lasagnes, béchamel et parmesan râpé.</li>
+            <li>Enfourner pendant 20-30min en fonction du plat et de l'aspect.</li>
+        </ol>
+    </body>
+</html>
