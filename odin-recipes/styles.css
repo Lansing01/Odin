@@ -1,11 +1,33 @@
 body {
     text-align: center;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 60px;
+    color: darkgoldenrod;
 }
 
-ul {
-    font-size: 25px;
+.recipe{
+    font-size: 30px;
+    background-size: 100%;
+    color: black;
+    background-color: blueviolet;
+    padding: 0px;
+}
+
+#chocolate-cake {
+    background-image: url("images/chocolate-cake.jpg");
+    background-size: cover;
+}
+
+#lemon-meringue {
+    background-image: url("images/lemon-pie.jpg");
+    background-size: cover;
+}
+
+#lasagna {
+    background-image: url("images/lasagna.jpg");
+    background-size: cover;
 }
