@@ -1,0 +1,98 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: #1F2937;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.links, a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header-title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.header-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+img {
+    color:#E5E7EB
+}
+
+.content-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.content-border{
+    border: 5px solid;
+    border-color: red;
+    padding: 10px;
+    margin: 10px;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+.content-container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.fake-image {
+    border: 5px solid;
+    border-color: lightskyblue;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.image-subtext {
+    text-align: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+}
+
+.quote-text {
+    font-style: italic;
+}
+
+.quote-author {
+    font-weight: bolder;
+}
+
+.encart {
+    background-color: #3882F6;
+}
+
+.encart-sign-up {
+    color: #E5E7EB;
+    background-color: #3882F6;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
