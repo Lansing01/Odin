@@ -4,6 +4,12 @@
     background-color: #1F2937;
 }
 
+body {
+    margin: 0px;
+    height: 100%;
+    font-family: 'Roboto'
+}
+
 .logo {
     font-size: 24px;
     color: #F9FAF8;
@@ -96,3 +102,4 @@ img {
     background-color: #1F2937;
     color: #E5E7EB;
 }
+
