@@ -1,13 +1,22 @@
-.header {
-    display: flex;
-    flex-direction: row;
-    background-color: #1F2937;
-}
-
 body {
     margin: 0px;
     height: 100%;
     font-family: 'Roboto'
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    background-color: #1F2937;
+
+}
+
+.header-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .logo {
@@ -16,12 +25,32 @@ body {
 }
 
 .links, a {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 10px;
+
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
     list-style-type: none;
-    padding: 0;
-    margin: 0;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+
+}
+
+.header-content-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
 }
 
 .header-title {
@@ -35,9 +64,30 @@ body {
     color: #E5E7EB;
 }
 
-img {
-    color:#E5E7EB
+.header-sign-up {
+    display: flex;
+    align-content: center;
+    justify-content: center;    
+    
+    border: 0px;
+    width: 80px;
+    margin: 10px;
+    padding: 5px;
 }
+
+.placeholder-image {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-items: center;
+    color:#E5E7EB;
+    background-color: lightslategray;
+    padding: 10px;
+    margin: 20px;
+}
+
+
+
 
 .content-title {
     font-size: 36px;
@@ -48,6 +98,7 @@ img {
 .content-border{
     border: 5px solid;
     border-color: red;
+    
     padding: 10px;
     margin: 10px;
     gap: 20px;
@@ -66,6 +117,7 @@ img {
 .fake-image {
     border: 5px solid;
     border-color: lightskyblue;
+    
     padding: 10px;
     margin: 10px;
     border-radius: 15px;
@@ -93,9 +145,11 @@ img {
     background-color: #3882F6;
 }
 
-.encart-sign-up {
+.encart-sign-up ,.header-sign-up {
     color: #E5E7EB;
     background-color: #3882F6;
+    border-radius: 5px;
+    border-color: #E5E7EB;
 }
 
 .footer {
