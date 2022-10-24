@@ -1,34 +1,37 @@
 body {
     margin: 0px;
     height: 100%;
-    font-family: 'Roboto'
+    font-family: 'Roboto';
 }
 
 .header {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    gap: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
 
     background-color: #1F2937;
-
 }
 
 .header-header {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .logo {
+    display: flex;
+    align-items: center;    
+
     font-size: 24px;
     color: #F9FAF8;
 }
 
 .links, a {
     display: flex;
-    flex-direction: row;
-    padding: 0;
-    margin: 10px;
+    gap: 20px;
 
     font-size: 18px;
     color: #E5E7EB;
@@ -39,24 +42,20 @@ body {
 .header-content {
     display: flex;
     flex-direction: row;
-    align-content: center;
-    justify-content: space-around;
-    flex-wrap: nowrap;
-
+    justify-content: space-between;
+    gap: 60px;
 }
 
 .header-content-content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding: 20px;
-    margin: 20px;
+    gap: 10px;
 }
 
 .header-title {
     font-size: 48px;
     font-weight: bolder;
-    color: #F9FAF8;
+    color: #F9FAF8;  
 }
 
 .header-subtext {
@@ -66,45 +65,57 @@ body {
 
 .header-sign-up {
     display: flex;
-    align-content: center;
     justify-content: center;    
-    
     border: 0px;
     width: 80px;
-    margin: 10px;
     padding: 5px;
+
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border-radius: 5px;
+    border-color: #E5E7EB;
 }
 
 .placeholder-image {
     display: flex;
-    flex-shrink: 0;
+    flex-direction: column;
+    flex: 1 0 50%;
     align-items: center;
-    justify-items: center;
+    justify-content: center;
+
     color:#E5E7EB;
     background-color: lightslategray;
-    padding: 10px;
-    margin: 20px;
 }
 
 
 
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
 
 .content-title {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+ 
+
     font-size: 36px;
-    font-weight: bolder;
+    font-weight: 900;
     color: #1F2937;
 }
 
-.content-border{
-    border: 5px solid;
-    border-color: red;
-    
+.content-border{   
     padding: 10px;
     margin: 10px;
-    gap: 20px;
+    gap: 40px;
     display: flex;
     flex-direction: row;
-    align-content: center;
+    align-content: space-between;
     justify-content: center;
 }
 
@@ -116,9 +127,10 @@ body {
 
 .fake-image {
     border: 5px solid;
-    border-color: lightskyblue;
-    
-    padding: 10px;
+    border-color: rgb(94, 136, 252);
+
+    display: flex;
+    flex: 0 1 100px;
     margin: 10px;
     border-radius: 15px;
 }
@@ -127,10 +139,18 @@ body {
     text-align: center;
 }
 
-.quote {
+.quote-container {
     background-color: #E5E7EB;
     color: #1F2937;
     font-size: 36px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .quote-text {
@@ -138,21 +158,58 @@ body {
 }
 
 .quote-author {
-    font-weight: bolder;
+    display: flex;
+    align-self: flex-end;
+
+    font-weight: 600;
+}
+
+.card {    
+    padding: 100px;
 }
 
 .encart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
     background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 5px;
+    padding: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
-.encart-sign-up ,.header-sign-up {
+.texte-encart {
+    display: flex;
+    flex-direction: column;
+}
+
+.titre {
+    font-weight: 600;
+}
+
+.encart-sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    padding: 5px;
+    
     color: #E5E7EB;
     background-color: #3882F6;
     border-radius: 5px;
     border-color: #E5E7EB;
+    font-weight: 600;
 }
 
 .footer {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 30px;
+
     background-color: #1F2937;
     color: #E5E7EB;
 }
