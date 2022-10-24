@@ -27,6 +27,7 @@ body {
 
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: 700;
 }
 
 .links, a {
@@ -103,7 +104,6 @@ body {
     flex-direction: row;
     align-self: center;
  
-
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
