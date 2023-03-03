@@ -33,7 +33,7 @@ let computerChoice = computerPick();
 console.log(computerChoice)
     if (WINNERS[playerChoice] === computerChoice) {
         window.alert("You won !");
-        playerScore = ++playerScore;
+        ++playerScore;
         return;
     }
     else if (playerChoice === computerChoice) {
@@ -42,7 +42,7 @@ console.log(computerChoice)
     }
     else {
         window.alert("The computer won !");
-        computerScore = ++computerScore;
+        ++computerScore;
         return;
     }
 }
