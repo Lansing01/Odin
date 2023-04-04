@@ -7,13 +7,12 @@ const WINNERS = {
 let playerScore = 0
 let computerScore = 0
 
-//Function get player choice
-function playerPick() {
+//Functions get choices
+function getPlayerPick() {
     return window.prompt("Rock, paper, scissors ?").toLowerCase()
 }
 
-//Function get computer choice
-function computerPick() {
+function getComputerPick() {
     let pick = Math.floor(Math.random() * 3);
     switch(pick) {
         case 0:
@@ -25,11 +24,11 @@ function computerPick() {
     }
 }
 
-//Function play a round 
+//Function play one round 
 function playRound() {
-let playerChoice = playerPick();
+let playerChoice = getPlayerPick();
 console.log(playerChoice)  
-let computerChoice = computerPick();
+let computerChoice = getComputerPick();
 console.log(computerChoice)
     if (WINNERS[playerChoice] === computerChoice) {
         window.alert("You won !");
@@ -46,7 +45,6 @@ console.log(computerChoice)
         return;
     }
 }
-
 
 //Function play a game
 function playGame() {
